@@ -3,6 +3,8 @@ import express from 'express';
 
 import routes from './routes';
 
+import './shared/infra/typeorm/index';
+
 dotenv.config({
   path:
     process.env.NODE_ENV === 'development'
